@@ -1,0 +1,14 @@
+Action Code	Result	Expected Result	Actual Result 2016-07-18 19:01:19.301
+launchGoogle			 2016-07-18 19:01:25.327
+launchGoogle	PASS	Google Webpage should be launched	Google Webpage has been launched 2016-07-18 19:01:27.06
+launchGoogle	PASS	Total Time(in secs)	2 2016-07-18 19:01:27.062
+			 2016-07-18 19:01:27.063
+searchGoogle			 2016-07-18 19:01:27.064
+searchGoogle	PASS	Search profile Aditya Manjrekar Binghamton linkedin on Google Webpage should be successful	Search profile Aditya Manjrekar Binghamton linkedin on Google Webpage is successful 2016-07-18 19:01:41.692
+searchGoogle	PASS	Total Time(in secs)	14 2016-07-18 19:01:41.694
+			 2016-07-18 19:01:41.695
+openProfile			 2016-07-18 19:01:41.696
+openProfile	PASS	Aditya Manjrekar | LinkedIn should be opened successfully	Aditya Manjrekar | LinkedIn is opened successfully 2016-07-18 19:01:53.559
+openProfile	PASS	Total Time(in secs)	12 2016-07-18 19:01:53.56
+			 2016-07-18 19:01:53.561
+		Total Time(in secs)	28 2016-07-18 19:01:53.562

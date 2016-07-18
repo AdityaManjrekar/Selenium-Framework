@@ -1,0 +1,113 @@
+File: Harness.java:84 Harness->initialise 2016-07-18 19:01:19.271
+File: Harness.java:190 Harness->getAutoHomePath 2016-07-18 19:01:19.281
+File: Harness.java:93 E:\Binghamton University\Mini Project\Selenium Famework Testing\Home Path Retrived from Config.xml 2016-07-18 19:01:19.281
+File: Harness.java:203 Harness->factoryResourcePath 2016-07-18 19:01:19.281
+E:\Binghamton University\Mini Project\Selenium Famework Testing\Home Folder Exists 2016-07-18 19:01:19.282
+File: Harness.java:221 Auto_TestCase_Composite.xls File Name Retrived from Config.xml 2016-07-18 19:01:19.282
+File: Harness.java:105 C:\Log Path Retrived from Config.xml 2016-07-18 19:01:19.283
+File: Harness.java:235 Harness->makeReporter 2016-07-18 19:01:19.283
+File: Harness.java:245  Reporter Types [ScreenDumps, HTML, Text] mentioned in Config.xml 2016-07-18 19:01:19.284
+File: Reporting.java:29 Reporting->factoryManagingReporter 2016-07-18 19:01:19.284
+File: Reporting.java:195 ManagingReporter -> selectReports 2016-07-18 19:01:19.285
+File: Reporting.java:246 FactoryReporter -> MakeReporter 2016-07-18 19:01:19.286
+File: Reporting.java:347 FactoryReporter -> makeScreenDumps 2016-07-18 19:01:19.286
+File: Reporting.java:352 C:\Log\ScreenDumps Screen Dump Folder Exists 2016-07-18 19:01:19.287
+File: Reporting.java:246 FactoryReporter -> MakeReporter 2016-07-18 19:01:19.287
+File: Reporting.java:324 FactoryReporter -> makeTextFile 2016-07-18 19:01:19.288
+File: Reporting.java:329 C:\Log\ExecutionReport.html HTML report File Exists 2016-07-18 19:01:19.288
+File: Reporting.java:246 FactoryReporter -> MakeReporter 2016-07-18 19:01:19.288
+File: Reporting.java:271 FactoryReporter -> makeTextFile 2016-07-18 19:01:19.289
+File: Reporting.java:276 C:\Log\ExecutionReport.txt File Exists 2016-07-18 19:01:19.289
+File: Harness.java:68 Delayed for 10 milliseconds  2016-07-18 19:01:19.29
+File: Harness.java:117 Harness->run 2016-07-18 19:01:19.3
+File: Reporting.java:42 Reporting->open 2016-07-18 19:01:19.3
+File: ReportPath.java:81 ReportPath -> openHTML 2016-07-18 19:01:19.3
+File: ReportPath.java:60 ReportPath -> openText 2016-07-18 19:01:19.301
+File: Harness.java:128 Harness->runTest 2016-07-18 19:01:19.302
+File: Harness.java:137 UIDriver object initialised 2016-07-18 19:01:19.302
+File: Engine.java:40 Engine -> FactoryEngine 2016-07-18 19:01:19.302
+File: Harness.java:147 oEngine object initialised 2016-07-18 19:01:19.303
+File: Harness.java:168 Harness->GetTestCase 2016-07-18 19:01:19.303
+File: Harness.java:428 FactoryTestCaseData->initialise 2016-07-18 19:01:19.303
+File: Harness.java:177 Test Case File Path initialised 2016-07-18 19:01:19.304
+File: Harness.java:296 FactoryTestCaseData -> deserialize 2016-07-18 19:01:19.304
+File: Harness.java:301  Test Case  File at Path E:\Binghamton University\Mini Project\Selenium Famework Testing\Home\TestCases\Auto_TestCase_Composite.xls Exists.  2016-07-18 19:01:19.304
+File: Harness.java:318 Sheet-> TestCase Found. 2016-07-18 19:01:19.419
+File: Harness.java:397 FactoryTestCaseData -> readData 2016-07-18 19:01:19.419
+File: Harness.java:331  Test Data  File at Path E:\Binghamton University\Mini Project\Selenium Famework Testing\Home\TestData\GoogleData.xls Exists.  2016-07-18 19:01:19.451
+File: Harness.java:347 Sheet-> TestCase Found. 2016-07-18 19:01:19.525
+File: Harness.java:159 Harness->BeginTestExecution 2016-07-18 19:01:19.655
+File: Engine.java:53 Engine -> beginExecution 2016-07-18 19:01:19.656
+File: Engine.java:137 Engine -> deserialiseOR 2016-07-18 19:01:19.656
+File: Engine.java:144  Object Repository File at Path E:\Binghamton University\Mini Project\Selenium Famework Testing\Home\ObjectRepository\OR.xls Exists.  2016-07-18 19:01:19.656
+File: Engine.java:170 Sheet-> OR Found. 2016-07-18 19:01:19.688
+File: UIDrivers.java:21 UIDrivers->initialise 2016-07-18 19:01:19.706
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:25.326
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:25.326
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:25.327
+File: FirefoxUIDriver.java:44 FirefoxUIDriver -> navigate 2016-07-18 19:01:25.328
+File: FirefoxUIDriver.java:331 FirefoxUIDriver -> getCurrentURL 2016-07-18 19:01:26.822
+File: FirefoxUIDriver.java:393 FirefoxUIDriver -> result 2016-07-18 19:01:26.953
+File: FirefoxUIDriver.java:400 Screenshot taken for Action launchGoogle 2016-07-18 19:01:26.954
+File: FirefoxUIDriver.java:341 FirefoxUIDriver -> takeScreenShot 2016-07-18 19:01:26.954
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:27.059
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:27.06
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:27.06
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:27.061
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:27.061
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:27.061
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:27.062
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:27.062
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:27.063
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:27.063
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:27.064
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:27.064
+File: FirefoxUIDriver.java:310 FirefoxUIDriver -> extractObject 2016-07-18 19:01:27.065
+File: FirefoxUIDriver.java:80 FirefoxUIDriver -> findElement for Locator type ID 2016-07-18 19:01:27.065
+File: FirefoxUIDriver.java:267 FirefoxUIDriver -> conditionalWait 2016-07-18 19:01:27.065
+File: FirefoxUIDriver.java:358 FirefoxUIDriver -> sendKeys 2016-07-18 19:01:27.14
+File: FirefoxUIDriver.java:289 FirefoxUIDriver -> unconditionalWait 2016-07-18 19:01:27.141
+File: FirefoxUIDriver.java:310 FirefoxUIDriver -> extractObject 2016-07-18 19:01:29.349
+File: FirefoxUIDriver.java:80 FirefoxUIDriver -> findElement for Locator type NAME 2016-07-18 19:01:29.35
+File: FirefoxUIDriver.java:267 FirefoxUIDriver -> conditionalWait 2016-07-18 19:01:29.35
+File: FirefoxUIDriver.java:369 FirefoxUIDriver -> sendKeys 2016-07-18 19:01:29.376
+File: FirefoxUIDriver.java:289 FirefoxUIDriver -> unconditionalWait 2016-07-18 19:01:29.376
+File: FirefoxUIDriver.java:289 FirefoxUIDriver -> unconditionalWait 2016-07-18 19:01:31.488
+File: FirefoxUIDriver.java:331 FirefoxUIDriver -> getCurrentURL 2016-07-18 19:01:41.489
+File: FirefoxUIDriver.java:393 FirefoxUIDriver -> result 2016-07-18 19:01:41.502
+File: FirefoxUIDriver.java:400 Screenshot taken for Action searchGoogle 2016-07-18 19:01:41.502
+File: FirefoxUIDriver.java:341 FirefoxUIDriver -> takeScreenShot 2016-07-18 19:01:41.502
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:41.691
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:41.691
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:41.692
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:41.693
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:41.693
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:41.694
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:41.694
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:41.695
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:41.695
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:41.695
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:41.696
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:41.696
+File: FirefoxUIDriver.java:310 FirefoxUIDriver -> extractObject 2016-07-18 19:01:41.697
+File: FirefoxUIDriver.java:175 FirefoxUIDriver -> findElements for Locator type TAG NAME 2016-07-18 19:01:41.697
+File: FirefoxUIDriver.java:267 FirefoxUIDriver -> conditionalWait 2016-07-18 19:01:41.697
+File: FirefoxUIDriver.java:289 FirefoxUIDriver -> unconditionalWait 2016-07-18 19:01:42.668
+File: FirefoxUIDriver.java:331 FirefoxUIDriver -> getCurrentURL 2016-07-18 19:01:52.669
+File: FirefoxUIDriver.java:393 FirefoxUIDriver -> result 2016-07-18 19:01:52.682
+File: FirefoxUIDriver.java:400 Screenshot taken for Action openProfile 2016-07-18 19:01:52.682
+File: FirefoxUIDriver.java:341 FirefoxUIDriver -> takeScreenShot 2016-07-18 19:01:52.682
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:53.558
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:53.558
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:53.558
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:53.559
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:53.559
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:53.56
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:53.56
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:53.56
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:53.561
+File: Reporting.java:59 Reporting->printResult 2016-07-18 19:01:53.561
+File: Reporting.java:105 Reporting->enterResultInHTML 2016-07-18 19:01:53.561
+File: Reporting.java:121 Reporting->enterResultInText 2016-07-18 19:01:53.562
+File: Reporting.java:132 Reporting->close 2016-07-18 19:01:53.562
+File: Reporting.java:151 Reporting->closeHTML 2016-07-18 19:01:53.562
