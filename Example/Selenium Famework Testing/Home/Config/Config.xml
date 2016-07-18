@@ -1,0 +1,90 @@
+<!--Environment_Parameter provides for configurable parameters valid across a test suite.-->
+<Environment_Parameter>
+<!--
+Folder Path where all the log files as well as The Results will be stored.
+ Please don't add a "\" at the End. It is handled in the Framework
+ -->
+<Variable>
+<name>LogFolderPath</name>
+<value>C:\Log</value>
+</Variable>
+<!--
+Folder Path where all the Result files as well as The Results will be stored.
+ Please don't add a "\" at the End. It is handled in the Framework
+ -->
+<Variable>
+<name>ResultFolderPath</name>
+<value>C:\Log</value>
+</Variable>
+<!--stack Trace file Name.-->
+<Variable>
+<name>TraceFileName</name>
+<value>Trace.txt</value>
+</Variable>
+<!--
+Home Folder Path where the Test Case file , Data Table and Object Repository is placed.
+Please don't add a "\" at the End. It is handled in the Framework
+-->
+<Variable>
+<name>HomeFolderPath</name>
+<value>E:\Binghamton University\Mini Project\Selenium Famework Testing\Home</value>
+</Variable>
+<!--
+Test Case File Name.
+-->
+<Variable>
+<name>TestCaseFile</name>
+<value>Auto_TestCase_Composite.xls</value>
+</Variable>
+<!--
+Test Data File Name.
+-->
+<Variable>
+<name>TestDataFile</name>
+<value>GoogleData.xls</value>
+</Variable>
+<!--
+Mention the Type by which the Report should be generated
+ScreenDumps,HTML,Excel,Text
+Please mention the values as comma sepearated.
+eg: HTML,Excel,Text
+-->
+<Variable>
+<name>Types_Of_Report</name>
+<value>ScreenDumps,HTML,Text</value>
+</Variable>
+
+<!--
+Excel report Template Path
+-->
+<Variable>
+<name>Excel_Report_Template_Path</name>
+<value>E:\Binghamton University\Mini Project\Selenium Framework\Home\ReportTemplate\ReportTemplate.xls</value>
+</Variable>
+
+<!--
+Delay time(in milliseconds) between two test Cases. 
+Please mention a minimum Test Case delay. If not enter 0.
+-->
+<Variable>
+<name>InterTestCaseDelay</name>
+<value>10</value>
+</Variable>
+<!--
+Delay time(in seconds) for Conditional Sync
+mention: LOW,MEDIUM,HIGH while using delay
+-->
+<Variable>
+<name>ConditionalTimeDelay</name>
+<value>5,10,15</value>
+</Variable>
+<!--
+Delay time(in milliseconds) for UnconditionalTimeDelay Sync
+mention: LOW,MEDIUM,HIGH while using delay
+-->
+<Variable>
+<name>UnconditionalTimeDelay</name>
+<value>2000,10000,15000</value>
+</Variable>
+
+</Environment_Parameter>
